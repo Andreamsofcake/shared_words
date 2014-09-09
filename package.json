@@ -1,11 +1,22 @@
 {
   "name": "shared-words",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andreamsofcake/shared_words.git"
   },
   "author": "Andrea Moulding",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andreamsofcake/shared_words/issues"
+  },
+  "homepage": "https://github.com/Andreamsofcake/shared_words"
 }
