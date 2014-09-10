@@ -2,8 +2,7 @@ var chai = require('chai');
 var expect = chai.expect;
 
 var functions = require('./index');
-var findWord = functions.findWord
-
+var findWord = functions.findWord;
 
 
 
