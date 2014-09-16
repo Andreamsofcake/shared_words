@@ -12,13 +12,13 @@
 
 /**
  * Creates array with common words from the two input arrays.
- * 
+ *
  * @param {Array.<String>} array1 First array of words.
  * @param {Array.<String>} array2 Second array of words.
  * @returns {Array.<String>} Common words.
  */
 module.exports.findWord = function (array1, array2) {
-	var newArray = [] 
+	var newArray = []
 	array1.forEach(function(word) {
 		array2.forEach(function(word2){
 			if(word === word2) {
